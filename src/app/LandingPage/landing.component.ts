@@ -2,12 +2,13 @@ import { Component } from '@angular/core';
 
 
 
+
+
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  templateUrl: './landing.component.html',
+  styleUrls: ['./landing.component.css']
 })
-export class AppComponent {
+export class LandingComponent {
   title = 'electron-angular-demo';
-  
 }
